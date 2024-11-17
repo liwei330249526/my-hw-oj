@@ -5,6 +5,7 @@ set(CMAKE_CXX_STANDARD 14)
 
 add_executable(oj main.cpp)
 
+#0-50
 add_executable(oj01 oj50/01滑动窗口最大值.cpp)
 add_executable(oj02 oj50/02在字符串中找到连续最长的数字串.cpp)
 add_executable(oj03 oj50/03路灯照明问题.cpp)
@@ -59,9 +60,23 @@ add_executable(oj49 oj50/49数组组成最小数字.cpp)
 add_executable(oj49_2 oj50/49_2.cpp)
 add_executable(oj50 oj50/50最长密码.cpp)
 
+#50-100
 add_executable(oj56 oj100/56构成正方形的数量.cpp)
 add_executable(oj58 oj100/58运维日志排序.cpp)
 add_executable(oj59 oj100/59磁盘容量排序.cpp)
 add_executable(oj64 oj100/64报数游戏.cpp)
 add_executable(oj65 oj100/65高矮个子排队.cpp)
 add_executable(oj66 oj100/66新工号中数字的最短长度.cpp)
+add_executable(oj67 oj100/67消消乐游戏.cpp)
+add_executable(oj74 oj100/74分班问题.cpp)
+add_executable(oj76 oj100/76最左冗余覆盖子串.cpp)
+add_executable(oj87 oj100/87英文输入法.cpp)
+add_executable(oj91 oj100/91找最小数.cpp)
+add_executable(oj92 oj100/92免单统计.cpp)
+add_executable(oj92_2 oj100/92免单统计2.cpp)
+add_executable(oj97 oj100/97预定酒店.cpp)
+
+# 100-150
+add_executable(oj102 oj150/102简单的压缩算法.cpp)
+add_executable(oj106 oj150/106计算网络信号强度.cpp)
+add_executable(oj109 oj150/109机房布局.cpp)
