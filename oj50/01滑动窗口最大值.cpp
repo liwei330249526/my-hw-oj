@@ -17,6 +17,7 @@
  * 说明，窗口长度为3，窗口滑动山城的窗口和分别是 12+10+20=42, 10+20+30=60， 20+30+15=55， 30+15+23=68
  *
  * */
+
 #include "iostream"
 #include "vector"
 using namespace std;
