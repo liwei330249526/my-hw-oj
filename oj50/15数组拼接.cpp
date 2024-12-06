@@ -27,23 +27,23 @@ using namespace std;
 
 string getStr(vector<vector<int>> &arrs, int width) {
   string ans;
-  int id = 0;
+  int id = 0; // 字符串起始索引
   bool hasF = false;
   while (true) {
     // 遍历所有行
     hasF = false;
     for (int i = 0; i < arrs.size(); i++) {
-      if (id >= arrs[i].size()) {
+      if (id >= arrs[i].size()) { // 如果起始索引大于某个字符串长度，则忽略
         continue;
       }
 
       for (int j = 0; j < width && id+j < arrs[i].size(); j++) {
         ans += to_string(arrs[i][id+j]);
-        hasF = true;
+        hasF = true;  // 该次遍历， 有数据处理
       }
     }
     id += width;
-    if (!hasF) {
+    if (!hasF) { // 如果一次遍历，没有数据处理，说明arrs 中没有数据了
       break;
     }
   }
