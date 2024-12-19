@@ -133,3 +133,9 @@ add_executable(oj284 oj300/284学生方阵.cpp)
 add_executable(oj291 oj300/291整数编码.cpp)
 add_executable(oj293 oj300/293宜居星球改造计划.cpp)
 add_executable(oj296 oj300/296补活未成活胡杨.cpp)
+add_executable(oj299 oj300/299选修课.cpp)
+add_executable(oj300 oj300/300出租车计费靠谱的车.cpp)
+
+
+# 300-349
+add_executable(oj304 oj350/304最长的交替连续方波信号.cpp)
