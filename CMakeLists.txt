@@ -139,3 +139,10 @@ add_executable(oj300 oj300/300出租车计费靠谱的车.cpp)
 
 # 300-349
 add_executable(oj304 oj350/304最长的交替连续方波信号.cpp)
+add_executable(oj308 oj350/308数组二叉树.cpp)
+add_executable(oj310 oj350/310分隔数组的最大差值.cpp)
+add_executable(oj311 oj350/311MELON的难题.cpp)
+add_executable(oj319 oj350/319战场索敌.cpp)
+
+# 算法
+add_executable(01skiplist suanfa_1000/01skiplist.cpp)
