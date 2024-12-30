@@ -153,3 +153,4 @@ add_executable(oj346s oj350/346金字塔.cpp)
 
 # 算法
 add_executable(01skiplist suanfa_1000/01skiplist.cpp)
+add_executable(02skiplist suanfa_1000/02skiplist.cpp)

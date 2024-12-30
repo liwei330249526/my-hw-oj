@@ -90,7 +90,7 @@ int main() {
   };
 
   int ans = dfs(dfs, rootId);
-  cout << rootId << " " ans << endl;
+  cout << rootId << " " <<  ans << endl;
 
   return 0;
 }
