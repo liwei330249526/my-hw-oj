@@ -143,6 +143,13 @@ add_executable(oj308 oj350/308数组二叉树.cpp)
 add_executable(oj310 oj350/310分隔数组的最大差值.cpp)
 add_executable(oj311 oj350/311MELON的难题.cpp)
 add_executable(oj319 oj350/319战场索敌.cpp)
+add_executable(oj320 oj350/320最佳植树距离.cpp)
+add_executable(oj328 oj350/328回复数字序列.cpp)
+add_executable(oj332 oj350/332寻找最大价值的矿堆.cpp)
+add_executable(oj341 oj350/341荒岛求生.cpp)
+add_executable(oj344 oj350/344计算最近的数.cpp)
+add_executable(oj345 oj350/345数字序列比大小.cpp)
+add_executable(oj346s oj350/346金字塔.cpp)
 
 # 算法
 add_executable(01skiplist suanfa_1000/01skiplist.cpp)
