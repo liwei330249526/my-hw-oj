@@ -31,7 +31,7 @@ int getResult(string str) {
     return 2*getResult(left) + 3*getResult(right) + 4;
   }
 
-  if (str.find('$') != string::npos) {
+  if (str.find('$') != string::npos) {  // 这里保证 $ 优先级高
     int id = str.rfind('$');   // 这里的重点是，要从rfind
     string left = str.substr(0, id - 0);
     string right = str.substr(id+1);

@@ -45,17 +45,17 @@ using namespace std;
 
 class UnionFind {
 public:
-    UnionFind(int n) {
+    UnionFind(int n) { // 元素个数
       // 初始化并查集
-      parent.resize(n);
-      rank.resize(n);
+      parent.resize(n); // 元素个数
+      rank.resize(n); // range 个数
       for (int i = 0; i < parent.size(); i++) {
         parent[i] = i; // 初始化每个节点的父节点为自己，每个是一个单独集合
       }
       return;
     }
 
-    // 查找
+    // 查找root
     int find(int x) {
       if (parent[x] == x) { // 找到了 root
         return x;

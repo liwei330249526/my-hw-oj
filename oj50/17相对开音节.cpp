@@ -15,6 +15,10 @@ ekam a ekac
 
 反转后为 make a cake 其中make、cake为相对开音节子串，返回2。
 
+
+ 元音字母‌是指那些主要发出元音音的字母，通常是A、E、I、O、U（有时也包括Y），而‌辅音字母‌则是指那些主要发出辅音音的字母，即所有非元音字母‌
+
+
  * */
 
 #include "string"
@@ -87,10 +91,10 @@ int main() {
 //    bool f4 = strs[i][3] == 'e';
 //    bool f5 = (!isVow(strs[i][0]) && isVow(strs[i][1]) && !isVow(strs[i][2]) && strs[i][2] != 'r' && strs[i][3] == 'e'));
     // 判断符合开音节
-    if (!isVow(strs[i][0]) &&
-        isVow(strs[i][1]) &&
-        (!isVow(strs[i][2]) && strs[i][2] != 'r')
-        && strs[i][3] == 'e') {
+    if (!isVow(strs[i][0]) && // 不是元音
+        isVow(strs[i][1]) && // 是元音
+        (!isVow(strs[i][2]) && strs[i][2] != 'r') // 不是元音，且不是r
+        && strs[i][3] == 'e') { // 是e
       count++;
     }
   }

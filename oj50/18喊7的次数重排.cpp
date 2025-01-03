@@ -46,12 +46,12 @@ using namespace std;
 
 
 bool isG(int num) {
-  if (num % 7 == 0) {
+  if (num % 7 == 0) { // 7 的倍数
     return true;
   }
 
   string numStr = to_string(num);
-  auto it = numStr.find('7');
+  auto it = numStr.find('7'); // 数字包含7
   if (it != string::npos) {
     return true;
   }

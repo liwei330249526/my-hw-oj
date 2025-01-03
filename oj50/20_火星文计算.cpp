@@ -51,13 +51,13 @@ int getResult(string str) {
     } else {
       if (str[i] == '#' || str[i] == '$') {
         num = stoi(str.substr(left, i - left)) ; // 获取一个数字
-        if (curOp == '#' || st.empty()) {
+        if (curOp == '#' || st.empty()) { // 优先级低，入栈
           st.push_back(num);
-        } else if (curOp == '$') {
+        } else if (curOp == '$') { // 优先级高，直接计算
           int numt = op2(st.back(), num);
           st[st.size()-1] = numt;
         }
-        curOp = str[i];
+        curOp = str[i]; // 更新curOp
 
         left = i+1;
       }

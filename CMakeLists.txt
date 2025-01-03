@@ -60,7 +60,7 @@ add_executable(oj49 oj50/49数组组成最小数字.cpp)
 add_executable(oj49_2 oj50/49_2.cpp)
 add_executable(oj50 oj50/50最长密码.cpp)
 
-#50-100
+#51-100
 add_executable(oj56 oj100/56构成正方形的数量.cpp)
 add_executable(oj58 oj100/58运维日志排序.cpp)
 add_executable(oj59 oj100/59磁盘容量排序.cpp)
@@ -76,7 +76,7 @@ add_executable(oj92 oj100/92免单统计.cpp)
 add_executable(oj92_2 oj100/92免单统计2.cpp)
 add_executable(oj97 oj100/97预定酒店.cpp)
 
-# 100-150
+# 101-150
 add_executable(oj102 oj150/102简单的压缩算法.cpp)
 add_executable(oj106 oj150/106计算网络信号强度.cpp)
 add_executable(oj109 oj150/109机房布局.cpp)
@@ -90,7 +90,7 @@ add_executable(oj136 oj150/136最大报酬.cpp)
 add_executable(oj143 oj150/143羊狼农夫过河.cpp)
 add_executable(oj149 oj150/149区间交叠问题.cpp)
 
-# 150-200
+# 151-200
 add_executable(oj161 oj200/161机器人可活动的最大网格点数目.cpp)
 add_executable(oj162 oj200/162过滤组合字符串.cpp)
 add_executable(oj163 oj200/163日志首次上报最多积分日志采集系统.cpp)
@@ -101,7 +101,7 @@ add_executable(oj172 oj200/172优秀学员统计.cpp)
 add_executable(oj174 oj200/174猜字谜.cpp)
 add_executable(oj176 oj200/176查找充电设备组合.cpp)
 
-# 200-250
+# 201-250
 add_executable(oj201 oj250/201实力差距最小总和最佳对手.cpp)
 add_executable(oj211 oj250/211最优资源分配芯片资源占用.cpp)
 add_executable(oj212 oj250/212找数字找等值元素.cpp)
@@ -137,7 +137,7 @@ add_executable(oj299 oj300/299选修课.cpp)
 add_executable(oj300 oj300/300出租车计费靠谱的车.cpp)
 
 
-# 300-349
+# 301-350
 add_executable(oj304 oj350/304最长的交替连续方波信号.cpp)
 add_executable(oj308 oj350/308数组二叉树.cpp)
 add_executable(oj310 oj350/310分隔数组的最大差值.cpp)
@@ -151,6 +151,34 @@ add_executable(oj344 oj350/344计算最近的数.cpp)
 add_executable(oj345 oj350/345数字序列比大小.cpp)
 add_executable(oj346s oj350/346金字塔.cpp)
 
+# 351 - 400
+add_executable(oj362 oj400/362转骰子.cpp)
+add_executable(oj371 oj400/371增强的strstr.cpp)
+add_executable(oj374 oj400/374字符串化繁为简.cpp)
+add_executable(oj376 oj400/376通过软盘拷贝文件.cpp)
+add_executable(oj392 oj400/392树状结构查询.cpp)
+add_executable(oj397 oj400/397最长子字符串的长度.cpp)
+add_executable(oj398 oj400/398转盘寿司.cpp)
+
+# 401 - 450
+add_executable(oj405 oj450/405游戏分组.cpp)
+add_executable(oj409 oj450/409传递悄悄话.cpp)
+add_executable(oj412 oj450/412学生排名智能成绩表.cpp)
+add_executable(oj423 oj450/423计算三叉树的高度.cpp)
+add_executable(oj424 oj450/424虚拟游戏理财.cpp)
+add_executable(oj428 oj450/428连续字母长度.cpp)
+add_executable(oj431 oj450/431跳马问题.cpp)
+add_executable(oj451 oj450/451手机app防沉迷系统.cpp)
+
+# 451 - 500
+add_executable(oj453 oj500/453跳格子小明跳格子.cpp)
+add_executable(oj454 oj500/454生成哈夫曼树.cpp)
+add_executable(oj455 oj500/455螺旋数字矩阵.cpp)
+add_executable(oj456 oj500/456分披萨.cpp)
+add_executable(oj460 oj500/460模拟目录管理功能.cpp)
+add_executable(oj468 oj500/468可以处理的最大任务数.cpp)
+
 # 算法
 add_executable(01skiplist suanfa_1000/01skiplist.cpp)
 add_executable(02skiplist suanfa_1000/02skiplist.cpp)
+add_executable(suanfa_1000_03 suanfa_1000/03字符串截取.cpp)
