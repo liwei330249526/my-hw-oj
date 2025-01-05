@@ -177,6 +177,16 @@ add_executable(oj455 oj500/455螺旋数字矩阵.cpp)
 add_executable(oj456 oj500/456分披萨.cpp)
 add_executable(oj460 oj500/460模拟目录管理功能.cpp)
 add_executable(oj468 oj500/468可以处理的最大任务数.cpp)
+add_executable(oj474 oj500/474推荐多样性.cpp)
+add_executable(oj476 oj500/476矩阵匹配数组中第k大的数中的最小值.cpp)
+add_executable(oj482 oj500/482加密算法特殊的加密算法.cpp)
+add_executable(oj483 oj500/483中文分词模拟器.cpp)
+add_executable(oj487 oj500/487流浪地球.cpp)
+
+
+# 501 550
+add_executable(oj526 oj550/526数字游戏.cpp)
+add_executable(oj548 oj550/548最大数.cpp)
 
 # 算法
 add_executable(01skiplist suanfa_1000/01skiplist.cpp)
