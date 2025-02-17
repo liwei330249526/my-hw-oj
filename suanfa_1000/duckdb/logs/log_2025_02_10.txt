@@ -1,0 +1,12 @@
+[2025-02-10 16:44:54] [Warning] This is a warning log message.
+[2025-02-10 16:44:54] [Error] This is an error log message.
+[2025-02-10 16:44:54] [Success] This is a success log message.
+[2025-02-10 17:48:33] [Warning] This is a warning log message.
+[2025-02-10 17:48:33] [Error] This is an error log message.
+[2025-02-10 17:48:33] [Success] This is a success log message.
+[2025-02-10 17:49:11] [Warning] This is a warning log message.
+[2025-02-10 17:49:11] [Error] This is an error log message.
+[2025-02-10 17:49:11] [Success] This is a success log message.
+[2025-02-10 17:49:44] [Warning] This is a warning log message.
+[2025-02-10 17:49:44] [Error] This is an error log message.
+[2025-02-10 17:49:44] [Success] This is a success log message.

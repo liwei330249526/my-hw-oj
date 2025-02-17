@@ -3,6 +3,11 @@
  * 由轻到重排列；对于身高体重都相同的人，维持原有的编号顺序关系。轻输出排列后的学生编号。
  *
 输入
+第1行是人数
+第2行是身高
+第3行是体重
+
+
 4
 100 100 120 130
 40 30 60 50
@@ -43,7 +48,7 @@ int main() {
     cin >> weight[i];
   }
 
-  sort(res.begin(), res.end(), [&](int a, int b) ->bool {
+  sort(res.begin(), res.end(), [&](int a, int b) ->bool {  // a 和 b代表人的索引， 即第几个人
     if (height[a] != height[b]) {
       return height[a] < height[b];
     }

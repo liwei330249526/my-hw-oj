@@ -1,0 +1,2 @@
+[Mon Feb 10 16:16:21 2025] This is a test log message.
+[Mon Feb 10 16:16:21 2025] Another log message.

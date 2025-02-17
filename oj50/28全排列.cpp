@@ -17,6 +17,12 @@ ABCDEFGHHA
 输出
 907200
 
+
+思路：
+排列组合思路
+n个数字的排列数为， n!  n*(n-1)*(n-2)...(2)*(1)
+如果里面有个数字有 m个。 则排列数为 m!
+不重复的排列数为  n!/m!
  * */
 
 #include "string"
@@ -38,12 +44,12 @@ int main() {
   getline(cin, str);
 
   unordered_map<char, int> freq;
-  for (char c : str) {
+  for (char c : str) { // 字符计数
     freq[c]++;
   }
 
-  int64_t tol = getJ(str.size());
-  for (auto it = freq.begin(); it != freq.end(); it++) {
+  int64_t tol = getJ(str.size()); // 总排列数
+  for (auto it = freq.begin(); it != freq.end(); it++) { // 除以 每个字符计数的排列数
     tol /= getJ(it->second);
   }
 

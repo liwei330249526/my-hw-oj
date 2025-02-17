@@ -32,21 +32,21 @@ int main() {
   int B = 0;
   int C = 0;
   bool find = false;
-  for (int i = 0; i < arr.size(); i++) {
+  for (int i = 0; i < arr.size(); i++) { // 遍历数组， 选一个A
     A = arr[i];
-    for (int j = 0; j < arr.size(); j++) {
+    for (int j = 0; j < arr.size(); j++) { // 遍历数组，选一个B
       if (j == i) {
         continue;
       }
       B = arr[j];
-      for (int k = 0; k < arr.size(); k++) {
+      for (int k = 0; k < arr.size(); k++) { // 遍历数组， 选一个C
         if (k == i || k == j) {
           continue;
         }
 
         C = arr[k];
 
-        if (A == B + 2*C) {
+        if (A == B + 2*C) { // 如果满足，则返回
           find = true;
           break;
         }

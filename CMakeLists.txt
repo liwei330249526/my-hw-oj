@@ -192,3 +192,11 @@ add_executable(oj548 oj550/548最大数.cpp)
 add_executable(01skiplist suanfa_1000/01skiplist.cpp)
 add_executable(02skiplist suanfa_1000/02skiplist.cpp)
 add_executable(suanfa_1000_03 suanfa_1000/03字符串截取.cpp)
+
+add_executable(suanfa_1000_04 suanfa_1000/04项目分析duckdb.cpp)
+# 链接 Boost::filesystem 库到可执行文件
+target_link_libraries(suanfa_1000_04 PRIVATE boost_filesystem)
+
+add_executable(suanfa_1000_05 suanfa_1000/05aries恢复.cpp)
+add_executable(suanfa_1000_duckdb_parse suanfa_1000/duckdb/parseConfig.cpp)
+add_executable(suanfa_1000_duckdb_log suanfa_1000/duckdb/log.cpp)
